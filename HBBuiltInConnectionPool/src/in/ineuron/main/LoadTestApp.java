@@ -32,3 +32,6 @@ public class LoadTestApp {
 	}
 
 }
+
+//WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+//INFO: HHH000115: Hibernate connection pool size: 25 (min=1)
