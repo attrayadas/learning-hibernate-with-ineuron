@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/hibernate"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mysql"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/hikaricp"/>
+	<classpathentry kind="lib" path="D:/iNeuron Java EE/Hibernate/19 Feb Hibernate/SourceCode_19_02_2023_hibernate/HibernateBuiltInConnectionPool/hikaricp/slf4j-simple-1.7.25.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
