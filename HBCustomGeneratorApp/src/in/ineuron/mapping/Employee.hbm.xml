@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="in.ineuron.model.Employee" table="empTab">
+		<id name="empId" type="java.lang.Integer" column="eid" >
+			<generator class="in.ineuron.generator.RandomGenerator"/>
+		</id>
+		<property name="empName" type="java.lang.String" length="20"
+			column="ename" />
+		<property name="empSal" type="java.lang.Double" column="esal" />
+	</class>
+</hibernate-mapping>
