@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="in.ineuron.model.Employee2" table="employee">
+		<id name="eno" type="java.lang.Integer" column="eno">
+			<generator class="identity" />
+		</id>
+		<property name="ename" type="java.lang.String" length="20"
+			column="ename" />
+		<property name="eaddr" type="java.lang.String" column="eaddr"
+			length="20" />
+		<property name="esalary" type="java.lang.Integer"
+			column="esalary" />
+	</class>
+</hibernate-mapping>
