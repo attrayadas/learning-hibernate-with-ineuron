@@ -8,7 +8,7 @@ import in.ineuron.model.Account;
 import in.ineuron.model.Employee;
 import in.ineuron.util.HibernateUtil;
 
-public class TestApp {
+public class InsertApp {
 
 	public static void main(String[] args) {
 
